@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./AdminLogin.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lohit Tamil:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="admin-login">
+      <div class="login" id="lOGINContainer">
+        <nav class="login-child"></nav>
+        <img class="login-item" alt="" src="./public/rectangle-7@2x.png" />
+
+        <div class="login-inner"></div>
+        <button class="dont-have-an-container" id="dontHaveAn">
+          <span class="dont-have-an">Don’t have an account? </span>
+          <span class="sign-up">Sign Up</span>
+        </button>
+        <img class="rectangle-icon" alt="" src="./public/rectangle-1.svg" />
+
+        <input
+          class="password"
+          name="password"
+          placeholder="Password"
+          type="password"
+          accept
+        />
+
+        <input
+          class="username-email"
+          name="username"
+          placeholder="Username / Email"
+          type="email"
+          accept
+        />
+
+        <img class="line-icon" alt="" src="./public/line-1.svg" />
+
+        <img class="login-child1" alt="" src="./public/line-2.svg" />
+
+        <img class="username-1-icon" alt="" src="./public/username--1@2x.png" />
+
+        <img class="password-1-icon" alt="" src="./public/password-1@2x.png" />
+
+        <button class="rectangle-button" id="rectangleButton"></button>
+        <b class="login-as-admin-container" id="lOGINASADMIN">
+          <p class="login-as-admin">LOGIN AS ADMIN</p>
+        </b>
+      </div>
+    </div>
+
+    <script>
+      var dontHaveAn = document.getElementById("dontHaveAn");
+      if (dontHaveAn) {
+        dontHaveAn.addEventListener("click", function (e) {
+          window.location.href = "./UserRegistration.html";
+        });
+      }
+      
+      var rectangleButton = document.getElementById("rectangleButton");
+      if (rectangleButton) {
+        rectangleButton.addEventListener("click", function (e) {
+          window.location.href = "./HomepageAdmin.html";
+        });
+      }
+      
+      var lOGINASADMIN = document.getElementById("lOGINASADMIN");
+      if (lOGINASADMIN) {
+        lOGINASADMIN.addEventListener("click", function (e) {
+          window.location.href = "./HomepageAdmin.html";
+        });
+      }
+      
+      var lOGINContainer = document.getElementById("lOGINContainer");
+      if (lOGINContainer) {
+        lOGINContainer.addEventListener("click", function () {
+          window.open("ht");
+        });
+      }
+      </script>
+  </body>
+</html>

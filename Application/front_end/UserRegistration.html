@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./UserRegistration.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lohit Tamil:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="user-registration">
+      <div class="registration-page">
+        <div class="bg"></div>
+        <div class="slider-dots">
+          <div class="slider-dots-child"></div>
+          <img class="slider-dots-item" alt="" src="./public/group-18.svg" />
+
+          <div class="slider-dots-child"></div>
+        </div>
+        <div class="registration-page-child"></div>
+        <img
+          class="registration-page-item"
+          alt=""
+          src="./public/rectangle-72@2x.png"
+        />
+
+        <div class="social-media-shared">
+          Social media shared today, tomorrow or by location
+        </div>
+        <div class="right">
+          <div class="dont-have-an-container1">
+            <span>Don’t have an account? </span>
+            <span class="log-in">Log In</span>
+          </div>
+          <div class="form">
+            <div class="google-button">
+              <div class="google-button-child"></div>
+              <div class="sign-in-with-google">Sign-in with google</div>
+              <img
+                class="iconfinder-google-1298745-1"
+                alt=""
+                src="./public/iconfinder-google-1298745-1@2x.png"
+              />
+            </div>
+            <div class="login-button" id="loginButtonContainer">
+              <div class="login-button-child"></div>
+              <div class="create-account">Create account</div>
+            </div>
+            <div class="terms-and-privacy-policy">
+              <input
+                class="terms-and-privacy-policy-child"
+                checked="{true}"
+                type="checkbox"
+              />
+
+              <div class="i-agree-to-container">
+                <span>I agree to all the </span>
+                <span class="log-in">Terms</span>
+                <span> and </span>
+                <span class="log-in">Privacy policy </span>
+              </div>
+            </div>
+            <div class="remember-me">
+              <input
+                class="terms-and-privacy-policy-child"
+                checked="{true}"
+                type="checkbox"
+              />
+
+              <div class="i-agree-to-container">Remember me</div>
+            </div>
+            <div class="entry-field">
+              <div class="entry-field1">
+                <div class="i-agree-to-container">NAME</div>
+                <div class="rectangle-parent">
+                  <input
+                    class="group-child"
+                    name="name"
+                    placeholder="name"
+                    type="text"
+                  />
+
+                  <div class="first-name1">First name</div>
+                </div>
+              </div>
+              <div class="entry-field2">
+                <div class="i-agree-to-container">Email or phone number</div>
+                <div class="rectangle-parent">
+                  <input
+                    class="group-child"
+                    name="email"
+                    placeholder="email"
+                    type="email"
+                    accept
+                  />
+
+                  <div class="first-name1">bill.sanders@example.com</div>
+                </div>
+              </div>
+              <div class="entry-field3">
+                <div class="i-agree-to-container">Password</div>
+                <div class="rectangle-parent">
+                  <input
+                    class="group-child"
+                    name="password"
+                    placeholder="password"
+                    type="password"
+                    accept
+                  />
+
+                  <div class="first-name1">First name</div>
+                </div>
+              </div>
+              <div class="entry-field4">
+                <div class="i-agree-to-container">Confirm password</div>
+                <div class="rectangle-parent">
+                  <input
+                    class="group-child"
+                    name="password"
+                    placeholder="password"
+                    type="text"
+                    accept
+                  />
+
+                  <div class="first-name1">First name</div>
+                </div>
+              </div>
+              <div class="entry-field5">
+                <div class="i-agree-to-container">
+                  <p class="role">Role</p>
+                  <p class="role">(Admin or Borrower)</p>
+                </div>
+                <div class="rectangle-parent">
+                  <input
+                    class="group-child"
+                    name="Role"
+                    placeholder="role"
+                    type="text"
+                    accept
+                  />
+
+                  <div class="first-name1">First name</div>
+                </div>
+              </div>
+              <div class="entry-field6">
+                <div class="i-agree-to-container">userName</div>
+                <div class="rectangle-parent">
+                  <input
+                    class="group-child"
+                    name="username"
+                    placeholder="username"
+                    type="text"
+                    accept
+                  />
+
+                  <div class="first-name1">First name</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text">
+            <div class="create-account1">Create account</div>
+            <div class="for-business-band">
+              For business, band or celebrity.
+            </div>
+          </div>
+          <div class="logo">
+            <div class="capzul">Capzul</div>
+            <img
+              class="img-new-logo-low-quality-icon"
+              alt=""
+              src="./public/imgnewlogolowquality@2x.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var loginButtonContainer = document.getElementById("loginButtonContainer");
+      if (loginButtonContainer) {
+        loginButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./LOGIN.html";
+        });
+      }
+      </script>
+  </body>
+</html>

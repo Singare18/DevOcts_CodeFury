@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./HomepageAdmin.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lohit Tamil:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="homepage-admin">
+      <img
+        class="homepage-admin-child"
+        alt=""
+        src="./public/rectangle-12.svg"
+      />
+
+      <div class="homepage-admin-inner">
+        <div class="rectangle-parent3">
+          <div class="component-child"></div>
+          <div class="component-item"></div>
+          <input
+            class="user-information"
+            placeholder="Username / Email"
+            type="text"
+          />
+
+          <button class="add-asset3" id="addAsset">
+            <ul class="add-asset4">
+              ADD ASSET
+            </ul>
+          </button>
+          <button class="add-asset5">
+            <ul class="over-due-asset">
+              <li class="over-due-asset1">OVER-DUE ASSET</li>
+            </ul>
+            <p class="management">MANAGEMENT</p>
+          </button>
+        </div>
+      </div>
+      <div class="instance-parent">
+        <div class="rectangle-parent4">
+          <div class="component-child"></div>
+          <div class="component-item"></div>
+          <input
+            class="user-information"
+            placeholder="Username / Email"
+            type="text"
+          />
+
+          <button class="add-asset3" id="addAsset2">
+            <ul class="add-asset4">
+              ADD ASSET
+            </ul>
+          </button>
+          <button class="add-asset5">
+            <ul class="over-due-asset">
+              <li class="over-due-asset1">OVER-DUE ASSET</li>
+            </ul>
+            <p class="management">MANAGEMENT</p>
+          </button>
+        </div>
+        <input
+          class="description1"
+          placeholder="Username / Email"
+          type="text"
+        />
+        <p class="management">Name - Amit Sinha</p>
+        <p class="management">Email - amitsinha09@gmail.com</p>
+        <p class="management">Last loggedon-6th september’23</p>
+        <p class="management">Time - 13:39 p.m</p>
+      </div>
+      <div class="instance-group">
+        <div class="rectangle-parent5">
+          <div class="component-child"></div>
+          <div class="component-item"></div>
+          <input
+            class="user-information"
+            placeholder="Username / Email"
+            type="text"
+          />
+
+          <button class="add-asset3" id="addAsset4">
+            <ul class="add-asset4">
+              ADD ASSET
+            </ul>
+          </button>
+          <button class="add-asset5">
+            <ul class="over-due-asset">
+              <li class="over-due-asset1">OVER-DUE ASSET</li>
+            </ul>
+            <p class="management">MANAGEMENT</p>
+          </button>
+        </div>
+        <input
+          class="description2"
+          placeholder="Username / Email"
+          type="text"
+        />
+        <p class="management">Name - Amit Sinha</p>
+        <p class="management">Email - amitsinha09@gmail.com</p>
+        <p class="management">Last loggedon-6th september’23</p>
+        <p class="management">Time - 13:39 p.m</p>
+      </div>
+      <input class="description3" placeholder="Username / Email" type="text" />
+      <p class="management">Name - Amit Sinha</p>
+      <p class="management">Email - amitsinha09@gmail.com</p>
+      <p class="management">Last loggedon-6th september’23</p>
+      <p class="management">Time - 13:39 p.m</p>
+
+      <nav class="homepage-admin-item"></nav>
+      <img
+        class="homepage-admin-child1"
+        alt=""
+        src="./public/rectangle-71@2x.png"
+      />
+    </div>
+
+    <script>
+      var addAsset = document.getElementById("addAsset");
+      if (addAsset) {
+        addAsset.addEventListener("click", function (e) {
+          window.location.href = "./AddAsset.html";
+        });
+      }
+      
+      var addAsset2 = document.getElementById("addAsset2");
+      if (addAsset2) {
+        addAsset2.addEventListener("click", function (e) {
+          window.location.href = "./AddAsset.html";
+        });
+      }
+      
+      var addAsset4 = document.getElementById("addAsset4");
+      if (addAsset4) {
+        addAsset4.addEventListener("click", function (e) {
+          window.open("./AddAsset.html");
+        });
+      }
+      </script>
+  </body>
+</html>
